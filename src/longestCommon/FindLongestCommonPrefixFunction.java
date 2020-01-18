@@ -11,7 +11,7 @@ public class FindLongestCommonPrefixFunction {
 		// Since longest common prefix is also in first element too
 		String current = strs[0];
 
-		// Starting from 1 since
+		// Starting from 1 since using current as 0 element
 		for (int i = 1; i < strs.length; i++) {
 			// startswith means if current is exactly in the strs[i] without any other letters
 			// While loop will make sure we get a value that starts with current
